@@ -232,8 +232,7 @@ function wsl_render_auth_widget( $args = array() )
 				else { 
 			?>
 			<span>
-				<img alt="<?php echo $provider_name ?>" src="<?php echo $assets_base_url . strtolower( $provider_id ) . '.png' ?>" aria-hidden="true" /> 
-				<?php echo $provider_name ?>
+				<img alt="<?php echo $provider_name ?>" src="<?php echo $assets_base_url . strtolower( $provider_id ) . '.png' ?>" aria-hidden="true" /> <?php echo $provider_name ?>
 			</span>
 			<?php } ?>
 
