@@ -44,6 +44,15 @@ $WORDPRESS_SOCIAL_LOGIN_PROVIDERS_CONFIG = ARRAY(
 		"default_network"   => true,
 	),
 	ARRAY(
+		"provider_id"       => "ColoredScience",
+		"provider_name"     => "ColoredScience",
+		"callback"          => true,
+		"require_client_id" => true,
+		"new_app_link"      => "https://user.coloredscience.com/home/devs/new",
+
+		"default_network"   => true,
+	),
+	ARRAY(
 		"provider_id"       => "Twitter",
 		"provider_name"     => "Twitter",
 		"callback"          => true,
